@@ -10,7 +10,7 @@ Este é o frontend da aplicação **Cadastro de Usuários**, desenvolvido em **R
 📸 Preview
 ---------------------------------
 
-![Preview do projeto](https://cadastro-de-usuarios-livid.vercel.app)
+[Preview do projeto](https://cadastro-de-usuarios-livid.vercel.app)
 
 
 🚀 Tecnologias Utilizadas
