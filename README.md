@@ -1,12 +1,94 @@
-# React + Vite
+🖥️ Frontend - Cadastro de Usuários
+------------------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o frontend da aplicação **Cadastro de Usuários**, desenvolvido em **React.js**, responsável pela interface de registro e listagem de usuários com integração via API REST.
 
-Currently, two official plugins are available:
+> 🔗 Repositório do backend: [Cadastro de Usuários - API Node.js](https://github.com/Alinne-Tannus/api-cadastro-de-usuarios)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+📸 Preview
+---------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Preview do projeto](https://cadastro-de-usuarios-livid.vercel.app)
+
+
+🚀 Tecnologias Utilizadas
+-----------------------------
+
+- [React.js](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Vite](https://vitejs.dev/) (para ambiente de desenvolvimento)
+- CSS3
+- Imagens locais
+
+
+⚙️ Funcionalidades
+---------------------
+
+- ✅ Cadastro de novos usuários
+- ✅ Listagem dinâmica dos usuários cadastrados
+- 🔄 Integração com API externa (backend Node.js + Prisma)
+- 📥 Requisições via Axios
+- ❌ Exclusão de usuários (em breve)
+
+
+🧠 Estrutura do Projeto
+-------------
+frontend/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── services/ # Configuração do Axios
+│ ├── pages/
+│ │ └── Home.jsx # Página principal com formulário
+│ └── style.css
+├── package.json
+└── vite.config.js
+
+📝 Como Rodar o Projeto
+-----------------------
+1. Clone o repositório:
+   
+```
+  git clone https://github.com/Alinne-Tannus/NOME-DO-REPO-FRONTEND.git
+cd NOME-DO-REPO-FRONTEND
+```
+
+2.Instale as dependências:
+
+```
+  npm install
+```
+
+3. Inicie o servidor local:
+```
+  npm run dev
+```
+   
+4. Acesse no navegador:
+
+```
+http://localhost:5173
+```
+
+Certifique-se de que o backend (API) esteja rodando em http://localhost:3000
+
+📦 API Esperada (Backend)
+------
+
+A API deve estar disponível em:
+
+```
+http://localhost:3000/users
+```
+
+
+- `GET /users:` Lista os usuários
+- `POST /users:` Cadastra novo usuário
+
+🙋‍♀️ Desenvolvedora
+-----------------
+Feito por [Alinne Tannus](https://github.com/Alinne-Tannus)
+
+
