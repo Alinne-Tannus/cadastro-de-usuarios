@@ -60,7 +60,8 @@ frontend/
 1. Clone o repositório:
    
 ```
-  git clone https://github.com/Alinne-Tannus/NOME-DO-REPO-FRONTEND.git
+git clone https://github.com/Alinne-Tannus/NOME-DO-REPO-FRONTEND.git
+
 cd NOME-DO-REPO-FRONTEND
 ```
 
