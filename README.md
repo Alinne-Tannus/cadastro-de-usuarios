@@ -30,7 +30,7 @@ Este é o frontend da aplicação **Cadastro de Usuários**, desenvolvido em **R
 - ✅ Listagem dinâmica dos usuários cadastrados
 - 🔄 Integração com API externa (backend Node.js + Prisma)
 - 📥 Requisições via Axios
-- ❌ Exclusão de usuários (em breve)
+- ✅ Exclusão de usuários 
 
 
 🧠 Estrutura do Projeto
