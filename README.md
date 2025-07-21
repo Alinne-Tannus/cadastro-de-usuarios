@@ -28,14 +28,16 @@ Este é o frontend da aplicação **Cadastro de Usuários**, desenvolvido em **R
 
 - ✅ Cadastro de novos usuários
 - ✅ Listagem dinâmica dos usuários cadastrados
+- ✅ Exclusão de usuários 
 - 🔄 Integração com API externa (backend Node.js + Prisma)
 - 📥 Requisições via Axios
-- ✅ Exclusão de usuários 
+
 
 
 🧠 Estrutura do Projeto
 -------------
 frontend/
+
 ├── public/
 
 ├── src/
