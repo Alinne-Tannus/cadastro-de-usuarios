@@ -37,14 +37,23 @@ Este é o frontend da aplicação **Cadastro de Usuários**, desenvolvido em **R
 -------------
 frontend/
 ├── public/
+
 ├── src/
+
 │ ├── assets/
+
 │ ├── services/ # Configuração do Axios
+
 │ ├── pages/
+
 │ │ └── Home.jsx # Página principal com formulário
+
 │ └── style.css
+
 ├── package.json
+
 └── vite.config.js
+
 
 📝 Como Rodar o Projeto
 -----------------------
