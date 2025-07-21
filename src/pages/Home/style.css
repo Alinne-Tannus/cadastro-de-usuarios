@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.title{
+  color:#FFF;
+  font-size: 28px;
+  text-align: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #202020;
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+
+  & button{
+    border-radius: 30px;
+    background-color: #c300ff;
+    border: none;
+    height: 40px;
+    color: #FFF;
+    cursor: pointer;
+  }
+
+  & button:hover{
+    opacity: 0.8;
+  }
+
+  & input{
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 30px;
+    height: 40px;
+    background-color: #4d4d4d;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+    color: #FFF;
+  }
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  
+  & p{
+    color: #FFF;
+    font-weight: bold;
+  }
+  & span{
+    font-weight: normal;
+  }
+
+  & button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
