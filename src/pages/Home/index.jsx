@@ -4,6 +4,7 @@ import Trash from '../../assets/icon-trash.png'
 import api from '../../services/api'
 
 
+
 function Home() {
   const [users, setUsers] = useState([])
 
