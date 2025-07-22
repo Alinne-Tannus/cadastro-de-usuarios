@@ -3,8 +3,6 @@ import './style.css'
 import Trash from '../../assets/icon-trash.png'
 import api from '../../services/api'
 
-
-
 function Home() {
   const [users, setUsers] = useState([])
 
@@ -24,7 +22,7 @@ function Home() {
 
   async function createUsers() {
       try{
-        await api.post('/users', {
+        await api.post('/users/', {
           name: inputName.current.value,
           email: inputEmail.current.value,
           age: inputAge.current.value
@@ -44,6 +42,15 @@ function Home() {
         console.error('Erro ao excluir usuário:', error);
       }
     }
+    async function createRandomUser() {
+      try { 
+        await api.post('/users/criador-de-users');
+        await getUsers();
+        } catch (error) {
+        console.error('Erro ao criar usuário aleatório:', error);
+      }
+    }
+
   useEffect(() => {
     getUsers()
   }, [])
@@ -55,7 +62,8 @@ function Home() {
         <input name='name' type="text" placeholder='Nome'  ref={inputName}/>
         <input name='email' type="email" placeholder='E-mail' ref={inputEmail}/>
         <input name='age' type="number" placeholder='Idade' ref={inputAge}/>
-        <button onClick={createUsers} type='button'>Cadastrar</button>
+        <button className='btn-cadastrar' onClick={createUsers} type='button'>Cadastrar</button>
+        <button className='btn-random' onClick={createRandomUser} type='button'> Criar usuário aleatório</button>
       </form>
 
       {users.map((user) => (
